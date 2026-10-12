@@ -92,9 +92,14 @@ color: #6b806d;
 
 
 .tips-grid {
-display: grid;
-grid-template-columns: repeat(2, 1fr);
+display: flex;
 gap: 15px;
+flex-direction: row;
+}
+
+.tip {
+flex: 1;
+min-width: 0;
 }
 
 .tip {
