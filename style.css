@@ -1,60 +1,130 @@
-
 body {
-    background-color: #f1f5ed;
-    font-family: Arial, sans-serif;
-    color: #333333;
+background-color: #f1f5ed;
+font-family: Arial, sans-serif;
+color: #333333;
+margin: 0;
 }
 
 .container {
-    width: 80%;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: white;
+width: 80%;
+margin: 20px auto;
+padding: 20px;
+background-color: white;
+}
+
+
+.hero {
+display: flex;
+align-items: center;
+gap: 25px;
+padding: 20px 0;
+}
+
+.hero-text {
+flex: 1;
 }
 
 h1 {
-    text-align: center;
-    color: #2e6b3f;
-    font-size: 36px;
+text-align: center;
+color: #2e6b3f;
+font-size: 36px;
 }
 
 .subtitle {
-    text-align: center;
-    color: #6b806d;
-    font-size: 18px;
+text-align: center;
+color: #6b806d;
+font-size: 18px;
 }
 
+.intro {
+font-size: 16px;
+line-height: 1.6;
+}
+
+
+.nature-image {
+width: 45%;
+height: 280px;
+object-fit: cover;
+border-radius: 8px;
+}
+
+
+.explore-btn {
+display: inline-block;
+background-color: #2e6b3f;
+color: white;
+text-decoration: none;
+padding: 10px 15px;
+border-radius: 5px;
+margin-top: 10px;
+}
+
+.explore-btn:hover {
+background-color: #1f4d2c;
+}
+
+
 hr {
-    border: 1px solid #dce5d8;
-    margin: 25px 0;
+border: 1px solid #dce5d8;
+margin: 25px 0;
+}
+
+
+.about {
+padding: 10px 0;
 }
 
 h2 {
-    color: #2e6b3f;
-    margin-top: 25px;
+color: #2e6b3f;
+margin-top: 25px;
 }
 
 p {
-    font-size: 16px;
-    line-height: 1.6;
+font-size: 16px;
+line-height: 1.6;
+}
+
+
+.section-description {
+color: #6b806d;
+}
+
+
+.tips-grid {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 15px;
 }
 
 .tip {
-    background-color: #f5f8f2;
-    border-left: 4px solid #4d8b57;
-    padding: 10px 15px;
-    margin: 15px 0;
+background-color: #f5f8f2;
+border-left: 4px solid #4d8b57;
+padding: 10px 15px;
+margin: 5px 0;
 }
 
 .tip h3 {
-    color: #356b42;
+color: #356b42;
+}
+
+.tip-icon {
+font-size: 30px;
+margin-bottom: 5px;
 }
 
 .footer {
-    text-align: center;
-    background-color: #2e6b3f;
-    color: white;
-    padding: 10px;
-    margin-top: 30px;
+text-align: center;
+background-color: #2e6b3f;
+color: white;
+padding: 10px;
+margin-top: 30px;
 }
 
+.footer h3 {
+color: white;
+}
+
+.footer p {
+font-size: 14px;
+}
